@@ -17,6 +17,18 @@ const ModalAdmin = ({ open, onOk, onCancel }) => {
         </Button>,
       ]}
     >
+      <div className="fromAcess">
+        <Input
+            placeholder="Usuário"
+            style={{ marginBottom: '16px' }}
+            value={adminconfig}
+          />
+        <Input
+            placeholder="Senha"
+            style={{ marginBottom: '16px' }}
+            value={senha}
+          />
+        </div>
     </Modal>
   );
 };
