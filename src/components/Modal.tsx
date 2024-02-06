@@ -116,7 +116,8 @@ const ModalView: React.FC = () => {
                 </Select.Option>
               )}
             </Select>
-            <div className=''>
+            </div>
+            <div className='selectservico'>
               <Row gutter={16}>
               <Col span={8}>
                 <Card
@@ -130,26 +131,16 @@ const ModalView: React.FC = () => {
               </Col>
               <Col span={8}>
                 <Card
-                  title="Card title 1"
+                  title="Degradê e Barba"
                   bordered={false}
                   onClick={() => handleCardClick('Card title 1')}
-                  style={{ cursor: 'pointer', backgroundColor: selectedCard === 'Card title 1' ? '#f0f0f0' : 'inherit' }}
+                  style={{ cursor: 'pointer', backgroundColor: selectedCard === 'Degradê+Barba' ? '#f0f0f0' : 'inherit' }}
                 >
                   Card content
                 </Card>
               </Col>
-              <Col span={8}>
-                <Card
-                  title="Card title 2"
-                  bordered={false}
-                  onClick={() => handleCardClick('Card title 2')}
-                  style={{ cursor: 'pointer', backgroundColor: selectedCard === 'Card title 2' ? '#f0f0f0' : 'inherit' }}
-                >
-                  Card content
-                </Card>
-              </Col>
-            </Row>
-          </div>
+              </Row>
+          
             
           </div>
         </div>

@@ -5,7 +5,7 @@
   text-align: center;
 }
 .Horarios{
-  margin-top: 15px;
+  margin-bottom: 15px;
 
 }
 .Cortes{
@@ -20,4 +20,7 @@
 }
 .ant-card-meta-title{
   color: #e3e3e3 !important;
+}
+.selectservico{
+  width: 100%;
 }
